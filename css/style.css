@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Guerrilla&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: url("img/text-decoration"), auto;
+
+}
+h1,h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav img{
+    border-radius: 145px;
+    width: 55%;
+    opacity: 90%;
+    justify-items: end;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+    }
+    /* Apuntamos ala barra de navegacion que esta dentro de header */
+header nav {
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+nav #hola {
+    backdrop-filter: blur(8px,blue);
+    border: 3px solid #ffffff1d;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+header ul a{
+    /* display: flex;
+    align-items: center; */
+    color: #292622;
+    font-size: 25px;
+    margin: 7px 10px;
+    text-decoration: none;
+}  
+#hero {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 250px;
+}
+#hero h2 {
+    color: #ffffff;
+    font-size: 100px;
+    text-shadow: -8px -10px 2px black;
+
+}
+#hero p {
+    font-size: 26px;
+    margin-bottom: 100px;
+    color: #FF8F00;
+    margin-top: 15px;
+    
+    
+
+}
+#hero button {
+    color: #000;
+    text-shadow: 4px 4px 0px #b96a0180;
+    background-color: #FF8F00;
+    font-size: 35px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+ }
+header ul a:hover{
+    border-bottom: 2px solid #FF8F00;
+    transition: .4s;
+}
+
+main #planes {
+    width: 100%;
+    position: relative;
+    background-color: #f0f0f0;
+}
+#titulo{
+    color:#0c7199;
+    font-size: 30px;
+}
+
+#planes{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #000;
+} 
+
+#planes p {
+    font-size: 25px;
+}
+
+#planes .fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.fila article {
+    margin: 0 60px;
+    position: relative;
+
+
+}
+.fila img{
+    border:3px solid black;
+    background:linear-gradient(rgba(145, 2, 2, 0.548),58%,rgb(247, 196, 204));
+}
+#planes article h3 {
+    position: absolute;
+    font-size: 35px;
+    z-index: 25px;
+    top: 220px;
+    left: 12px;
+    width: 100%;
+    text-align: start;
+    color: #ffffff;
+
+
+}
+
+#destinos {
+    background:linear-gradient(black,48%,rgba(31, 30, 30, 0.897));
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 0;
+
+}
+#destinos h3 {
+    font-size: 60px;
+    color: rgb(247, 5, 5);
+}
+#destinos h4 {
+    font-size: 25px;
+    color: rgb(80, 76, 76);
+    margin:0;
+}
+#destinos h2 {
+    padding: 25px 0 ;
+    color: #FF8F00;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#destinos p {
+    color: #f8f8f8;
+    padding: 13px 20px 20px;
+    font-size: 30px; 
+
+
+}
+#destinos .fila {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px 40px;
+}
+#destinos article {
+    border: 7px solid beige;
+    border-radius: 40px;
+    
+}
+
+
+#mapa h2 {
+    font-size: 40px;
+    text-align: center;
+
+}
+#mapa {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#mp{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#mapa img{
+    cursor: pointer;
+    filter:grayscale(100%);
+} 
+#mapa img:hover,h2:hover {
+    filter:grayscale(0%);
+    /*transform: scale(105%);*/
+}
+
+#STREMERS {
+    width: 100%;
+    padding-bottom: 100px;
+}
+#STREMERS article{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 50px 100px;
+}
+
+
+
+
+.parent  {
+    display: flex;
+    justify-items: center;
+}
+
+#STREMERS h2{
+    font-size: 60px;
+}
+#STREMERS h3{
+    font-size: 40PX;
+    color: blue;
+}
+#STRMERS article {
+    display: flex;
+}
+#contactos {
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+}
+#contactos h2 {
+    padding: 18px 0px 14px;
+    font-size: 40px;
+    
+}
+#contactos p{
+    font-size: 20px;
+}
+#contactos input,
+#contactos select {
+    width: 40%;
+    padding: 8px 14px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+#contactos form {
+    width: 50%;
+    margin:40px auto;
+
+}
+
+#contactos button {
+    background-color: #00000067;
+    color: #ffffff;
+    font-size: 20px;
+    border-color:transparent;
+    border-radius: 4px;
+    margin-top: 60px;
+    padding: 14px 30px;
+
+
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer ul li {
+    margin-bottom: 10px;
+    padding: 7px;
+    list-style: none;
+
+}
+#comun {
+    display: inline-block;
+    background-color: #85858575;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 15px;
+    line-height: normal;
+    color: rgb(85, 85, 85);
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+#poco_comun {
+    display: inline-block;
+    background-color: #01be0a70;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 15px;
+    line-height: normal;
+    color: #097a0f;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+#raro {
+    display: inline-block;
+    background-color: #0054b375;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 15px;
+    line-height: normal;
+    color: #0053b3;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+#legendario{
+    display: inline-block;
+    background-color: #ff910063;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 15px;
+    line-height: normal;
+    color: #FF8F00;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+#epica {
+    display: inline-block;
+    background-color: #27053677;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 15px;
+    line-height: normal;
+    color: #25013a;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+

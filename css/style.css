@@ -39,6 +39,7 @@ nav #hola {
     backdrop-filter: blur(8px,blue);
     border: 3px solid #ffffff1d;
     position: fixed;
+    z-index:30;
     top: 0;
     right: 0;
 

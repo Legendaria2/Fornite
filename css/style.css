@@ -209,53 +209,50 @@ main #planes {
     cursor: pointer;
     filter:grayscale(100%);
 } 
-#mapa img:hover,h2:hover {
+#mapa img:hover {
     filter:grayscale(0%);
     /*transform: scale(105%);*/
 }
 
-#STREMERS {
-    width: 100%;
-    padding-bottom: 100px;
+#STREMERS .titulos {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 15px;
+
 }
-#STREMERS article{
+.div1{
+    grid-column-start: 2;
+}
+.div2{
+    grid-column-start: 4;
+}
+.contenedor {
     display: flex;
     justify-content: space-around;
-    justify-items: center;
-    margin: 50px 100px;
+    align-items: center;
 }
 
 
-
-
-.parent {
+#STREMERS article {
     display: flex;
-    justify-items:center;
-
-
-}
-.parent img {
-    padding: 0px;
-
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 10px;
 }
 
-#STREMERS h2{
+#STREMERS h2 {
+    margin-bottom: 10px;
     font-size: 60px;
-    justify-content: space-between;
+    text-align: center;
 }
-#STREMERS h3{
-    font-size: 35PX;
-    color: blue;
-    margin: 0;
-    padding: 15px;
+#STREMERS IMG{
+    margin: 20PX;
+    padding: 20PX;
 }
-#STREMERS #referencias img{
-    display: flex;
-    justify-content: flex-end;
 
-}
 #contactos {
-    background-color: yellow;
+    background:linear-gradient( #FF8F00 25%,#f7d201 80%,rgba(255, 1, 1, 0.664) );
     text-align: center;
     width: 100%;
     padding: 100px 0;

@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Bebas Neue", sans-serif;
-    cursor: url("img/text-decoration"), auto;
+    cursor: url("../img/espada 1.png"), auto;
 
 }
 h1,h2 {
@@ -228,20 +228,31 @@ main #planes {
 
 
 
-.parent  {
+.parent {
     display: flex;
-    justify-items: center;
+    justify-items:center;
+
+
+}
+.parent img {
+    padding: 0px;
+
 }
 
 #STREMERS h2{
     font-size: 60px;
+    justify-content: space-between;
 }
 #STREMERS h3{
-    font-size: 40PX;
+    font-size: 35PX;
     color: blue;
+    margin: 0;
+    padding: 15px;
 }
-#STRMERS article {
+#STREMERS #referencias img{
     display: flex;
+    justify-content: flex-end;
+
 }
 #contactos {
     background-color: yellow;
@@ -287,6 +298,9 @@ footer{
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
     
 }
 footer ul li {
